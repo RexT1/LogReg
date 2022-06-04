@@ -101,16 +101,17 @@
 
         <Button
             android:id="@+id/register"
-            android:layout_width="348dp"
-            android:layout_height="55dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
             android:layout_weight="1"
             android:backgroundTint="#FF8853"
             android:fontFamily="@font/poppins_medium"
             android:text="Register"
             android:textColor="@color/white"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:cornerRadius="12dp"/>
 
         <TextView
             android:id="@+id/redirectlog"

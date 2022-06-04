@@ -89,7 +89,8 @@
                 android:insetRight="10dp"
                 android:text="Login"
                 android:textColor="@color/white"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                app:cornerRadius="12dp"/>
 
             <Button
                 android:id="@+id/register"
@@ -102,17 +103,19 @@
                 android:insetLeft="10dp"
                 android:text="Register"
                 android:textColor="@color/white"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                app:cornerRadius="12dp"/>
         </LinearLayout>
 
         <ImageView
             android:id="@+id/google_log"
-            android:layout_width="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_height="55dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/signin_button" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="70dp"
+            app:srcCompat="@drawable/signin_button">
 
+        </ImageView>
     </LinearLayout>
 
 </ScrollView>
